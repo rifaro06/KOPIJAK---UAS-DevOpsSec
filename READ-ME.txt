@@ -1,0 +1,16 @@
+KOPIJAK – Website Coffee Shop
+
+Website ini dibuat sebagai proyek Ujian Akhir Semester
+mata kuliah DevOpsSec.
+
+Website menggunakan konsep web statis dengan teknologi:
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+
+Pengembang:
+- Riez Rafa Roro
+- Noval Maulani
+
+Tahun: 2026
