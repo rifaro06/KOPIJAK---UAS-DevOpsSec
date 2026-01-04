@@ -13,7 +13,9 @@
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -60,7 +62,8 @@
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
+        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5"
+            style="min-height: 400px">
             <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Menu</h1>
             <div class="d-inline-flex mb-lg-5">
                 <p class="m-0 text-white"><a class="text-white" href="index.html">Beranda</a></p>
@@ -148,10 +151,10 @@
                 </div>
             </div>
         </div>
-    <!-- Menu End -->
+        <!-- Menu End -->
 
 
-    <!-- Footer Start -->
+        <!-- Footer Start -->
         <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
             <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
                 <div class="col-lg-3 col-md-6 mb-5">
@@ -171,7 +174,9 @@
                         </a>
 
                         <!-- GitHub -->
-                        <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#" title="Repository Proyek">
+                        <a class="btn btn-lg btn-outline-light btn-lg-square mr-2"
+                            href="https://github.com/rifaro06/KOPIJAK---UAS-DevOpsSec.git" target="_blank"
+                            title="Repository Proyek">
                             <i class="fab fa-github"></i>
                         </a>
 
@@ -215,56 +220,56 @@
                 <p class="m-0 text-white">Designed by Riez Rafa Roro & Noval Maulani</p>
             </div>
         </div>
-    <!-- Footer End -->
+        <!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
 
-    <!-- WA Promo Script -->
-    <script>
-        function kirimPromoWA() {
-            const emailInput = document.getElementById("emailPromo");
+        <!-- WA Promo Script -->
+        <script>
+            function kirimPromoWA() {
+                const emailInput = document.getElementById("emailPromo");
 
-            if (!emailInput) {
-                alert("Input email tidak ditemukan");
-                return;
+                if (!emailInput) {
+                    alert("Input email tidak ditemukan");
+                    return;
+                }
+
+                const email = emailInput.value;
+
+                let pesan =
+                    "Halo KOPIJAK,%0A%0A" +
+                    "Saya ingin mendapatkan Informasi Terkait Promo.";
+
+                if (email) {
+                    pesan += "%0AEmail: " + email;
+                }
+
+                const nomorWA = "6281286802586";
+                const url = "https://wa.me/" + nomorWA + "?text=" + pesan;
+
+                window.open(url, "_blank");
             }
-
-            const email = emailInput.value;
-
-            let pesan =
-                "Halo KOPIJAK,%0A%0A" +
-                "Saya ingin mendapatkan Informasi Terkait Promo.";
-
-            if (email) {
-                pesan += "%0AEmail: " + email;
-            }
-
-            const nomorWA = "6281286802586";
-            const url = "https://wa.me/" + nomorWA + "?text=" + pesan;
-
-            window.open(url, "_blank");
-        }
-    </script>
+        </script>
 </body>
 
 </html>
